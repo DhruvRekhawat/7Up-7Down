@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>7up&7down</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="spacer"></div>
+    <nav>
+        <ul>
+            <li>
+                7Up&Down
+            </li>
+           
+            
+        </ul>
+    </nav>
+    <h1>7 Up Or 7 Down?</h1>
+    <section>
+    <span id="balance"> Balance: $5000</span>
+    <span id="currentBet">Bet: $0</span>
+    <span id="score">Score: $0</span>
+    </section>
+    <main>
+     <div class="screen1" id="num1">
+        0
+     </div>
+     <div class="screenSum" id="sum">
+        
+        0
+     </div>
+     <div class="screen2" id="num2">
+        0
+     </div>
+    </main>
+    <section>
+       
+        <button id="bet1" onclick="betOne()" >
+           $ 50
+        </button>
+        <button id="bet2" onclick="betTwo()">
+           $ 100
+        </button>
+        <button id="bet3" onclick="betThree()">
+           $ 500
+        </button>
+    </section>
+    <section>
+        <button id="up" data-tag="up" onclick="up()">
+            Up
+        </button>
+        <button id="down" data-tag="down" onclick="down()">
+            Down
+        </button>
+    </section>
+    <div class="spacer2"></div>
+    <div class="winLoseScreen">
+           
+    </div>
+    <script src="index.js"></script>
+</body>
+</html>
